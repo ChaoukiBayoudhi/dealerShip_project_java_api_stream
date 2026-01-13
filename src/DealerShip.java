@@ -19,6 +19,7 @@ public class DealerShip {
     public Optional<Car> getMostPowerfulCar() {
         return Optional.empty();
     }
+
     // 4. max: Find the car with the highest power for a given client
     public Optional<Car> getMostPowerfulCar(int clientCode) {
         return Optional.empty();

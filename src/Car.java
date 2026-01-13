@@ -10,7 +10,7 @@ import lombok.experimental.FieldDefaults;
 @RequiredArgsConstructor(staticName = "of")
 public class Car {
     @NonNull
-    String seriesNumber;
+    String serialNumber;
     String color;
     @NonNull
     CarConstructor constructor;
